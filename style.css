@@ -10,3 +10,11 @@ body {
     font-size: 5px;
   }
 }
+
+.label {
+  color: pink;
+}
+.active {
+  color: blue;
+  font-size: 20px;
+}
