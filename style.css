@@ -1,0 +1,12 @@
+/* 기본 속성 */
+html,
+body {
+  font-size: 10px;
+}
+
+@media (max-width: 1000px) {
+  html,
+  body {
+    font-size: 5px;
+  }
+}
