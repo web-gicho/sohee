@@ -1,20 +1,56 @@
-/* 기본 속성 */
-html,
-body {
-  font-size: 10px;
-}
+/* example1 */
 
-@media (max-width: 1000px) {
-  html,
-  body {
-    font-size: 5px;
-  }
+.example1 {
+  display: flex;
 }
-
-.label {
-  color: pink;
-}
-.active {
-  color: blue;
+.example1-before,
+.example1-after,
+.example1-hover {
+  width: 300px;
+  height: 60px;
   font-size: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 1px solid skyblue;
+  background-color: white;
+  color: skyblue;
+  margin: 20px;
+}
+.example1-after {
+  background-color: skyblue;
+  color: white;
+  width: 200px;
+  height: 80px;
+  font-size: 24px;
+  font-weight: 700;
+  transform-origin: center center;
+  transform: translate(20px, 20px);
+  -webkit-transform: translate(20px, 20px);
+  -moz-transform: translate(20px, 20px);
+  -ms-transform: translate(20px, 20px);
+  -o-transform: translate(20px, 20px);
+}
+.example1-hover {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: 1s;
+}
+.example1-hover:hover {
+  background-color: skyblue;
+  color: white;
+  width: 200px;
+  height: 80px;
+  font-size: 24px;
+  font-weight: 700;
+  transform-origin: center center;
+  transform: translate(20px, 20px);
+  -webkit-transform: translate(20px, 20px);
+  -moz-transform: translate(20px, 20px);
+  -ms-transform: translate(20px, 20px);
+  -o-transform: translate(20px, 20px);
+  cursor: pointer;
 }
